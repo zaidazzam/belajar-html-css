@@ -1,0 +1,156 @@
+*{
+    /*margin: 0px;*/
+}
+body {
+/*
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/3/96/6/phantom-assassin-dota-2-simple-art-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+    background-size: 1500px;
+    */
+    background : url("https://c4.wallpaperflare.com/wallpaper/3/96/6/phantom-assassin-dota-2-simple-art-wallpaper-preview.jpg") no-repeat fixed center;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+a{
+    display: block;
+}
+h1 {
+    color:red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    display: inline;
+}
+
+
+#pembuka {
+    text-align: justify;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    word-spacing: normal;
+}
+#awalan {
+    font-size: 20px;=
+    font-weight: normal;
+    background : green;
+    width: 50%;
+    height:100px;
+    max-width : 30%;
+    max-height:100px;
+    visibility :hidden;
+    display:none;
+}
+
+#tab_wrab{
+    /* margin top right bottom left; */
+    margin: 10px 0 50px 0;
+
+
+}
+.menu{
+   /*  height: 50px;
+    width: 100px; */
+    display: inline-block;
+    text-decoration: none;
+
+    /*border-width: 3px;
+    border-style: solid;
+    border-color: brown;*/
+    border : 3px solid black;
+    padding: 10px;
+}
+.menu:link{
+    background: green;
+    color: whitesmoke;
+}
+.menu:visited {
+    background: grey;
+}
+.menu:hover{
+    background: blue;
+}
+.menu:active{
+    background: whitesmoke;    
+}
+
+
+
+.salam{
+  background: hotpink;
+  position:fixed;
+  top: 100px;
+  left: 20px;
+  font-size: 40px;
+}
+/* #parent_h1{
+    position: relative;
+    top: 100px;
+
+}
+#h1_member1{
+    background:whitesmoke;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    z-index: -1;
+}
+#parent_h2{
+    position: relative;
+    top: 100px;
+}
+#h2_member2{
+    background: rebeccapurple;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    z-index: -2;
+} */
+
+table {
+    float: left;
+    margin-right: 20px;
+}
+#div_baru{
+    clear: both;
+}
+
+#ul_1{
+    float: left;
+    margin-right: 100px;
+}
+
+h1, h2 {
+    color: wheat;
+}
+
+    /* div a {
+        background: blue;
+    } */
+
+div > a {
+    background: blue;
+}
+div + div {
+    background: aqua;
+}
+
+div ~ p {
+    background: brown;
+}
+
+h1:hover {
+    color: black;
+}
+
+h2:hover +h2 {
+    color: black;
+}
+
+input:focus, textarea:focus{
+    background: chartreuse;
+}
